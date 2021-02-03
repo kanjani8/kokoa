@@ -10,4 +10,5 @@
 @import "screens/login.css";
 body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  height: 1000vh;
 }

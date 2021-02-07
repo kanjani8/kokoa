@@ -37,3 +37,7 @@
   left: 32px;
   bottom: 27px;
 }
+
+.nav__link i {
+  font-size: 25px;
+}

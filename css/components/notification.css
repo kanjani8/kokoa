@@ -1,0 +1,24 @@
+.notification-box {
+  position: relative;
+}
+
+.screen-header__notification {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 21px;
+  bottom: 17px;
+}
+
+.screen-header__notification__dot {
+  width: 5px;
+  height: 5px;
+  bottom: 21px;
+}

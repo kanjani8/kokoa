@@ -10,9 +10,10 @@
   font-size: 32px;
   font-weight: 600;
   top: 0;
+  display: none;
 }
 
-@media screen and (orientation: landscape) {
+@media screen and (orientation: portrait) {
   #no-landscape {
     display: none;
   }

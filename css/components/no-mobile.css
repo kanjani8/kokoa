@@ -8,16 +8,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 600;
   top: 0;
 }
 
-#no-mobile span:first-child {
-  margin-bottom: 20px;
+#no-mobile span {
+  margin: 20px;
 }
 
-@media screen and (max-width: 670px) and(orientation: portrait) {
+@media screen and (max-width: 700px) and (orientation: portrait) {
   #no-mobile {
     display: none;
   }

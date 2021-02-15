@@ -1,3 +1,11 @@
+.settings__main-screen {
+  height: 110vh;
+}
+.settings__list:nth-child(2) {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
 .settings__setting {
   padding: 20px 0;
   border-bottom: var(--main-border);
@@ -10,6 +18,9 @@
 .settings__setting i {
   margin-right: 20px;
   font-size: 22px;
+}
+.settings__setting-column {
+  display: flex;
 }
 
 .settings__setting-column:last-child {

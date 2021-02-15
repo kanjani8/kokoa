@@ -37,7 +37,7 @@
       </div>
   </header>
 
-  <main class="main-screen">
+  <main class="main-screen settings__main-screen">
     <ul class="settings__list">
         <li class="settings__setting">
             <div class="settings__setting-column">
@@ -61,6 +61,56 @@
             <div class="settings__setting-column">Latest Version</div>
         </li>
     </ul>
+    <ul class="settings__list">
+      <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-lock"></i>
+              <span>Privacy</span>
+          </div>
+          <div class="settings__setting-column"></div>
+      </li>
+      <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="far fa-bell"></i>
+              <span>Notifications</span>
+          </div>
+          <div class="settings__setting-column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting-column">
+          <i class="fas fa-user-alt"></i>
+            <span>Friends</span>
+        </div>
+        <div class="settings__setting-column"></div>
+    </li>
+    <li class="settings__setting">
+      <div class="settings__setting-column">
+        <i class="far fa-comments"></i>
+          <span>Chats</span>
+      </div>
+      <div class="settings__setting-column"></div>
+  </li>
+      <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-adjust"></i>
+            <span>Display</span>
+            <div class="notification-box">
+              <span class="settings__notification">N</span>
+            </div>
+          </div>
+          <div class="settings__setting-column"></div>
+      </li>
+      <li class="settings__setting">
+        <div class="settings__setting-column">
+          <i class="fas fa-brush"></i>
+          <span>Themes</span>
+          <div class="notification-box">
+            <span class="settings__notification">N</span>
+            </div>
+        </div>
+        <div class="settings__setting-column">Default theme</div>
+    </li>
+  </ul>
   </main>
 
 <nav class="nav">
@@ -87,7 +137,12 @@
           </a></li>
     </ul>
 </nav>
-
+<div id="no-mobile">
+  <span>Your Screen is Too Big! ;)</span>
+</div>
+<div id="no-landscape">
+  <span>Your Phone is landscaped!</span>
+</div>
   <script
   src="https://kit.fontawesome.com/6478f529f2.js"
   crossorigin="anonymous"
